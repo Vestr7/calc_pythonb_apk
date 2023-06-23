@@ -1,0 +1,1 @@
+sudo apt -y install python3-distutils && sudo apt -y install python3-pip && pip3 install setuptools && sudo apt install -y git && git clone https://github.com/kivy/buildozer.git && cd buildozer && sudo python3 setup.py install && buildozer init
